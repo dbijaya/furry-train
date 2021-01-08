@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Jan 07 21:19:46 NPT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0176-dd7c-6647-000001617150 
+on database directory memory:/home/shadow/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/simple-api-data/86da5779-db37-4e8f-98a9-a5b61d4bfee3 with class loader org.springframework.boot.loader.LaunchedURLClassLoader@5f375618 
+Loaded from jar:file:/home/shadow/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/simple-api-data/target/simple-api-data-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/derby-10.14.2.0.jar!/
+java.vendor=N/A
+java.runtime.version=14.0.2+12
+user.dir=/home/shadow/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/simple-api-data
+os.name=Linux
+os.arch=amd64
+os.version=5.9.16-1-MANJARO
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
