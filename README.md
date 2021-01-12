@@ -31,6 +31,8 @@ This is my new SpringBoot RESRful API development starter project. I have made s
   1. new run: `http://localhost:9001/health`
   1. Read: [Management over HTTP](https://docs.spring.io/spring-boot/docs/1.5.3.RELEASE/reference/html/production-ready-monitoring.html)
   
+  **New Advanced Project:** : [fluffy-train](https://github.com/dbijaya/fluffy-train)
+  
   ...more to go.
   
   **Wish me Luck**
