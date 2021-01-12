@@ -20,11 +20,11 @@ public class TopicService {
 //	here, Array was immutable DS, so to add new data from POST, we have to have Mutable type.
 //	so we added new ArrayList i.e collection-type DS to add new data.
 	
-//	private List<Topic> topics = new ArrayList<>( Arrays.asList(
-//			new Topic("Spring", "Spring Framework", "Spring Description"),
-//			new Topic("Java", "core java", "Core Java Description"),
-//			new Topic("JavaScript", "JavaScript", "JavaScript Description")
-//			));
+	// private List<Topic> topics = new ArrayList<>( Arrays.asList(
+	// 		new Topic("Spring", "Spring Framework", "Spring Description"),
+	// 		new Topic("Java", "core java", "Core Java Description"),
+	// 		new Topic("JavaScript", "JavaScript", "JavaScript Description")
+	// 		));
 	
 	public List<Topic> getAllTopics(){
 		List<Topic> topics = new ArrayList<>();

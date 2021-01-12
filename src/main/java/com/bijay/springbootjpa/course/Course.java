@@ -1,21 +1,31 @@
 package com.bijay.springbootjpa.course;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 import com.bijay.springbootjpa.topic.Topic;
 
 @Entity
+@Table
 public class Course {
 	
 	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column
 	private String id;
+	@Column
 	private String name;
+	@Column
 	private String description;
 	
 //	This annotation give FK relationship i.e Many-to-One relationship between the entities.
 	@ManyToOne
+	@Column
 	private Topic topic;
 	
 //	for easier object initialization

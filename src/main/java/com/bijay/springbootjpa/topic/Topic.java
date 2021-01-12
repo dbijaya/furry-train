@@ -1,14 +1,23 @@
 package com.bijay.springbootjpa.topic;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="Topic")
 public class Topic {
 	
 	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column
 	private String id;
+	@Column
 	private String name;
+	@Column
 	private String description;
 	
 //	for easier object initialization
@@ -43,5 +52,4 @@ public class Topic {
 		this.id = id;
 	}
 	
-
 }
