@@ -8,6 +8,8 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.BatchSize;
+
 import com.bijay.springbootjpa.topic.Topic;
 
 @Entity
@@ -15,17 +17,15 @@ import com.bijay.springbootjpa.topic.Topic;
 public class Course {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column
 	private String id;
 	@Column
 	private String name;
 	@Column
+	@BatchSize(size = 100)
 	private String description;
 	
 //	This annotation give FK relationship i.e Many-to-One relationship between the entities.
 	@ManyToOne
-	@Column
 	private Topic topic;
 	
 //	for easier object initialization

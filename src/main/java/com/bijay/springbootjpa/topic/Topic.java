@@ -12,8 +12,6 @@ import javax.persistence.Table;
 public class Topic {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column
 	private String id;
 	@Column
 	private String name;
