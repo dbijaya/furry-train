@@ -13,7 +13,7 @@ public interface CourseRepository extends CrudRepository<Course, String> {
 	 * signature: "findByProperty" and give attribute: as Property
 	 * Eg:
 	 * 	public List<Course> findByName(String name);
-	 *  public List<Course> findByDescription(String description);
+	 *  	public List<Course> findByDescription(String description);
 	 */
 	
 	public List<Course> findByTopicId(String topicId);
